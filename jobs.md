@@ -1,6 +1,8 @@
 ---
 layout: page
 title: My careers
+summary: "Job history of Igor Pavlov: Worki, SVI, Binomo, Social Quantum"
+tags: [careers, job history, developer, software developer, social quantum, worki, svi, silicon valley, binomo, team-lead]
 permalink: /jobs/
 ---
 

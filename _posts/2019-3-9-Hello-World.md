@@ -1,6 +1,9 @@
 ---
 layout: post
 title: You're up and running!
+summary: "Up and running!"
+tags: [hello world, software developer, social quantum, worki, svi, silicon valley, binomo, team-lead]
+
 ---
 
 I've migrated my personal site to `github pages` and `jekyll` templates :)

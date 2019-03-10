@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+summary: "About Igor Pavlov"
+tags: [hobbies, developer, software developer, social quantum, worki, svi, silicon valley, binomo, team-lead]
 permalink: /about/
 ---
 
