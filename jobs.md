@@ -8,7 +8,6 @@ permalink: /jobs/
 
 Some information about my previous and current jobs
 
-## My employment history
 ### **Worki.ru**
 * **Dates**: February 2018 - ...
 * **Employer**: Worki.ru
