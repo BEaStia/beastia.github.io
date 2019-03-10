@@ -15,7 +15,7 @@ Some information about my previous and current jobs
     * **Position**: Back-end Engineer/Team-lead/Head of department
     * **Responsibilites**:
       * Rewriting services with Elixir/Ruby, refactoring, implementing new features, business integrations, improving infrastructure, recruiting, helping business to make decisions, managing team. 
-      * Forked prerender.io , tweaked it to be more efficient, to support external headless chrome instances. Had a lot of investigations with nats and nats-streaming.
+      * Forked prerender.io, tweaked it to be more efficient, to support external headless chrome instances. Had a lot of investigations with nats and nats-streaming.
       * Created our own client for ruby for nats and for elixir. Created light-weight clickhouse package. Was responsible for scaling and site reliability.
       
     * **Kind of activity**: Back-end, dev ops, team-leading
