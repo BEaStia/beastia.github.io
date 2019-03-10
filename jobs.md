@@ -8,7 +8,7 @@ permalink: /jobs/
 
 Some information about my previous and current jobs
 
-### **Worki.ru**
+## **Worki.ru**
 * **Dates**: February 2018 - ...
 * **Employer**: Worki.ru
 * **Position**: Back-end Engineer/Team-lead/Head of department
@@ -19,7 +19,7 @@ Some information about my previous and current jobs
   
 * **Kind of activity**: Back-end, dev ops, team-leading
 
-### **SVI**    
+## **SVI**    
 * **Dates**: March 2017  - ...
 * **Employer**: Silicon Valley Insight
 * **Position**: Senior Software engineer
@@ -31,7 +31,7 @@ Some information about my previous and current jobs
     Was leading development team from 2 backend and 2 frontend developers. We stated to use some features of dry-stack(dry-transaction), created really covered with tests and flexible system(that we can be proud of). Moreover I was developing small crypto project for automated trading of cryptocurrencies using signals from different sources.
 * **Kind of activity**: Web development, Machine Learning, Cryptocurrency startups development
 
-### **Deep Learn Inc. **    
+## **Deep Learn Inc. **    
 * **Dates**: December 2016 - April 2017 
 * **Employer**: Deep Learn Inc. 
 * **Position**: Senior Software developer 
@@ -40,7 +40,7 @@ Some information about my previous and current jobs
     * Development of django application and jupyter at prototype of https://auger.ai/ called deephub at http://deephub.com/
 * **Kind of activity**: Web development, Machine Learning
 
-### **Atomic Works**    
+## **Atomic Works**    
 * **Dates**: September 2015 - September 2018
 * **Employer**: Atomic Works, Montreal 
 * **Position**: Unity3D developer 
@@ -50,7 +50,7 @@ Some information about my previous and current jobs
     * Creating back-end services with Python and Ruby on Rails
 * **Kind of activity**: Scientific Researches, CAD development
 
-### **404 group**    
+## **404 group**    
 * **Dates**: February 2016 - November 2016 
 * **Employer**: 404 Group, Saint Petersburg
 * **Position**: Ruby on Rails developer 
@@ -62,7 +62,7 @@ Some information about my previous and current jobs
     * Working at UI (Angular.js, Twitter Bootstrap, React) at Highload Web platform for trading
 * **Kind of activity**: Web development
 
-### **Social Quantum**    
+## **Social Quantum**    
 * **Dates**: March 2013 - February 2016 
 * **Employer**: Social Quantum Development, Ivanovo 
 * **Position**: Ruby/Actionscript developer 
@@ -73,7 +73,7 @@ Some information about my previous and current jobs
     * Refactoring (https:// vk.com/app1895587) 
 * **Kind of activity**: Game development
 
-### **Involta**
+## **Involta**
     
 * **Dates**: July 2012 - February 2013 
 * **Employer**: Involta, Ivanovo
@@ -81,7 +81,7 @@ Some information about my previous and current jobs
 * **Responsibilites**: Development new corporate projects, working with Twitter Bootstrap, PHP Codeigniter, MySQL, Redis. (nosiprikol.ru)
 * **Kind of activity**: Web development
 
-### **Prom Service**    
+## **Prom Service**    
 * **Dates**: June 2011 - July 2012 
 * **Employer**: PromService, Ivanovo 
 * **Position**: Software developer
