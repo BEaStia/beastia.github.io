@@ -1,3 +1,11 @@
+---
+layout: post
+title: I've started to consult people! 
+summary: "Gachimuchi inspired"
+tags: [team-lead vkrabota.ru worki.ru ruby]
+
+---
+
 # Jooby Masters
 
 We decided to change a bit current situation with hiring and following our secret strategy(at jooby.dev) we've started [Masters Page](https://masters.jooby.dev).
