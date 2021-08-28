@@ -8,19 +8,22 @@ permalink: /jobs/
 
 Some information about my previous and current jobs
 
-## **Worki.ru**
+## **Worki.ru**/**VK Работа**
 * **Dates**: February 2018 - ...
 * **Employer**: Worki.ru
-* **Position**: Back-end Engineer/Team-lead/Head of department
+* **Position**: Back-end Engineer/Team-lead/Head of development department
 * **Responsibilites**:
   * Rewriting services with Elixir/Ruby, refactoring, implementing new features, business integrations, improving infrastructure, recruiting, helping business to make decisions, managing team. 
   * Forked prerender.io, tweaked it to be more efficient, to support external headless chrome instances. Had a lot of investigations with nats and nats-streaming.
   * Created our own client for ruby for nats and for elixir. Created light-weight clickhouse package. Was responsible for scaling and site reliability.
+  * Hired a team
+  * Implemented different HR practices: 360, performance review and 1-to-1 in a light modes
+  * Built a very abstract and agile monetization system for different business cases
   
 * **Kind of activity**: Back-end, dev ops, team-leading
 
 ## **SVI**    
-* **Dates**: March 2017  - ...
+* **Dates**: March 2017  - March 2018
 * **Employer**: Silicon Valley Insight
 * **Position**: Senior Software engineer
 * **Responsibilites**: 
