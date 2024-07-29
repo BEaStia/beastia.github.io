@@ -5,18 +5,21 @@ tags: [developer, software developer, social quantum, worki, svi, silicon valley
 
 ---
 
-<h4>Posts:</h4>
+<h1>Job history:</h1>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+      <div><h5>Dates: {{post.dates}}</h5></div>
+      <div><h5>Employer: {{ post.employer }}</h5></div>
+      <div><h5>Position: {{post.position}}</h5></div>
+      <div><h5>Activities: {{post.activities}}</h5></div>
+      <div><h5>Responsibilites:</h5>
+        <ul>
+        {% for resp in post.responsibilites %}
+          <li>{{ resp }}</li>
+        {% endfor %}
+        </ul>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
