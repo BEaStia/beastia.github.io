@@ -392,6 +392,20 @@ nav {
   margin-top: 0;
 }
 
+.skills-groups {
+  display: grid;
+  gap: 18px;
+}
+
+.skills-group h3 {
+  margin: 0 0 12px;
+  color: $darkGray;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
