@@ -1,25 +1,137 @@
 ---
 layout: default
-summary: "Igor Pavlov - Team-leader from Worki"
-tags: [developer, software developer, social quantum, worki, svi, silicon valley, binomo, team-lead]
+summary: "Igor Pavlov - CTO building AI products"
+tags: [cto, ai, startup, agentic, backend, engineering, leadership]
 
 ---
 
-<h1>Job history:</h1>
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <div><h5>Dates: {{post.dates}}</h5></div>
-      <div><h5>Employer: {{ post.employer }}</h5></div>
-      <div><h5>Position: {{post.position}}</h5></div>
-      <div><h5>Activities: {{post.activities}}</h5></div>
-      <div><h5>Responsibilites:</h5>
-        <ul>
-        {% for resp in post.responsibilites %}
-          <li>{{ resp }}</li>
-        {% endfor %}
-        </ul>
+<div class="resume-page">
+  <section class="resume-hero">
+    <div class="hero-copy">
+      <div class="eyebrow">CTO · AI startup builder · Remote</div>
+      <h1>Igor Pavlov</h1>
+      <p class="hero-summary">
+        CTO and engineering leader building AI products from scratch. I focus on integrating diverse
+        data sources, designing analysis and detection pipelines, improving agentic workflows, and
+        creating development and testing practices that make AI systems reliable enough to ship.
+      </p>
+    </div>
+    <aside class="hero-panel">
+      <div class="hero-stat">
+        <span class="hero-stat-label">Current role</span>
+        <span class="hero-stat-value">Chief Technical Officer at Deeplens</span>
       </div>
+      <div class="hero-stat">
+        <span class="hero-stat-label">Focus</span>
+        <span class="hero-stat-value">AI pipelines, data integrations, agentic flows, internal tooling</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-label">Background</span>
+        <span class="hero-stat-value">Backend engineering, team leadership, startup execution</span>
+      </div>
+    </aside>
+  </section>
+
+  <section class="resume-section">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>Ruby</li>
+      <li>Elixir</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Rails</li>
+      <li>Django</li>
+      <li>Flask</li>
+      <li>GraphQL</li>
+      <li>REST APIs</li>
+      <li>PostgreSQL</li>
+      <li>Redis</li>
+      <li>ClickHouse</li>
+      <li>NATS</li>
+      <li>LLM pipelines</li>
+      <li>Agentic workflows</li>
+      <li>Analysis systems</li>
+      <li>Detection pipelines</li>
+      <li>AWS</li>
+      <li>Docker</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <section class="resume-section">
+    <h2>Experience</h2>
+    <div class="posts">
+      {% for post in site.posts %}
+        {% assign year = post.date | date: "%Y" %}
+        {% if year >= "2017" %}
+          <article class="experience-card">
+            <div class="experience-meta">
+              <div class="experience-meta-item">
+                <span class="experience-meta-label">Dates</span>
+                <span class="experience-meta-value">{{ post.dates }}</span>
+              </div>
+              <div class="experience-meta-item">
+                <span class="experience-meta-label">Company</span>
+                <span class="experience-meta-value">{{ post.employer }}</span>
+              </div>
+              <div class="experience-meta-item">
+                <span class="experience-meta-label">Role</span>
+                <span class="experience-meta-value">{{ post.position }}</span>
+              </div>
+            </div>
+            <div class="experience-meta-item">
+              <span class="experience-meta-label">Scope</span>
+              <span class="experience-meta-value">{{ post.activities }}</span>
+            </div>
+            <div style="height: 14px;"></div>
+            <h3>Responsibilities</h3>
+            <ul class="experience-responsibilities">
+              {% for resp in post.responsibilities %}
+                <li>{{ resp }}</li>
+              {% endfor %}
+            </ul>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h2>Earlier career</h2>
+    <p class="resume-note">
+      2011-2016 was a progression from software development into backend work, game development,
+      and product engineering. Key roles included Software Developer at PromService, PHP Developer at
+      Involta, Ruby/ActionScript Developer at Social Quantum, Ruby on Rails Developer at 404 Group,
+      Unity3D Developer at Atomic Works, and Senior Software Developer at Deep Learn Inc.
+    </p>
+    <ul class="experience-responsibilities">
+      <li>Built applications for industrial and hardware integrations at PromService.</li>
+      <li>Developed web products and internal tooling at Involta.</li>
+      <li>Worked on game backend and client-side optimization at Social Quantum.</li>
+      <li>Delivered Rails product work and UI integration at 404 Group.</li>
+      <li>Built 3D/scientific software and backend services at Atomic Works on a part-time basis alongside other roles.</li>
+      <li>Worked on Ruby, Python, Django, Flask, React, and machine learning prototypes at Deep Learn Inc.</li>
+    </ul>
+  </section>
+
+  <section class="resume-section">
+    <h2>Education</h2>
+    <article class="experience-card">
+      <div class="experience-meta">
+        <div class="experience-meta-item">
+          <span class="experience-meta-label">Year</span>
+          <span class="experience-meta-value">2014</span>
+        </div>
+        <div class="experience-meta-item">
+          <span class="experience-meta-label">Institution</span>
+          <span class="experience-meta-value">Ivanovo State Power University</span>
+        </div>
+        <div class="experience-meta-item">
+          <span class="experience-meta-label">Degree</span>
+          <span class="experience-meta-value">Software Engineer</span>
+        </div>
+      </div>
+      <p class="resume-note">Formal education in software engineering.</p>
     </article>
-  {% endfor %}
+  </section>
 </div>

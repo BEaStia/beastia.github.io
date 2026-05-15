@@ -6,7 +6,7 @@ tags: [team-lead vkrabota.ru worki.ru ruby]
 dates: "September 2015 - September 2018"
 employer: "Atomic Works, Montreal"
 position: "Unity3D developer"
-responsibilites: [
+responsibilities: [
   "Creating UI for scientific project with 3D objects",
   "Simulating atomic and molecular interaction",
   "Creating back-end services with Python and Ruby on Rails"
@@ -18,7 +18,7 @@ activities: "Scientific Researches, CAD development"
 * **Dates**: September 2015 - September 2018
 * **Employer**: Atomic Works, Montreal
 * **Position**: Unity3D developer
-* **Responsibilites**: 
+* **Responsibilities**:
     * Creating UI for scientific project with 3D objects
     * Simulating atomic and molecular interaction
     * Creating back-end services with Python and Ruby on Rails

@@ -6,7 +6,7 @@ tags: [team-lead vkrabota.ru worki.ru ruby]
 dates: "March 2013 - February 2016"
 employer: "Social Quantum Development, Ivanovo"
 position: "Ruby/Actionscript developer"
-responsibilites: [
+responsibilities: [
   "Development of new features (Rails 2.3, 3+)",
   "Refactoring", 
   "Bugfixing",
@@ -19,7 +19,7 @@ activities: "Game development"
 * **Dates**: March 2013 - February 2016
 * **Employer**: Social Quantum Development, Ivanovo
 * **Position**: Ruby/Actionscript developer
-* **Responsibilites**:
+* **Responsibilities**:
     * Development of new features (Rails 2.3, 3+)
     * Bugfixing, 
     * SQL queries optimising (PostgreSQL), optimising client side(ActionScript 3, Haxe, FlasCC)
