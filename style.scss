@@ -5,9 +5,11 @@
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
+@use "sass:color";
+@use "reset" as *;
+@use "variables" as *;
+@use "highlights" as *;
+@use "svg-icons" as *;
 
 /**************/
 /* BASE RULES */
@@ -106,7 +108,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: darken($blue, 12%);
+    color: color.adjust($blue, $lightness: -12%);
   }
 }
 
@@ -188,7 +190,10 @@ img {
 }
 
 .masthead {
-  padding: 22px 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 24px 0;
   border-bottom: 1px solid rgba(29, 36, 51, 0.08);
   backdrop-filter: blur(14px);
   background: rgba(255, 255, 255, 0.45);
@@ -196,34 +201,40 @@ img {
   box-shadow: 0 10px 30px rgba(18, 25, 39, 0.04);
 
   @include mobile {
+    flex-direction: column;
     text-align: center;
+    gap: 10px;
   }
 }
 
 .site-avatar {
-  float: left;
   width: 70px;
   height: 70px;
-  margin-right: 15px;
+  flex: 0 0 70px;
+  margin-left: 8px;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    margin-left: 0;
   }
 
   img {
-    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow: 0 8px 18px rgba(18, 25, 39, 0.12);
   }
 }
 
 .site-info {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -233,19 +244,31 @@ img {
   cursor: pointer;
   font-family: $georgia;
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 0.2px;
+  font-size: 32px;
+  line-height: 1.08;
+  letter-spacing: -0.2px;
+
+  a {
+    color: inherit;
+  }
+
+  @include mobile {
+    font-size: 28px;
+  }
 }
 
 .site-description {
   margin: 0;
   color: $gray;
-  font-size: 15px;
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.18em;
 
   @include mobile {
-    margin: 3px 0;
+    margin-top: 4px;
+    font-size: 11px;
   }
 }
 
@@ -331,7 +354,7 @@ nav {
   padding: 8px 12px;
   border-radius: 999px;
   background: rgba(33, 85, 214, 0.1);
-  color: darken($blue, 8%);
+  color: color.adjust($blue, $lightness: -8%);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -551,8 +574,3 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
