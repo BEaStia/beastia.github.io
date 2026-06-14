@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Deeplens
-summary: "Engineering Leader at Deeplens"
+summary: "CTO for a B2B SaaS product for AI-assisted feedback analysis and review processing"
 tags: [ai, startup, cto, machine learning, agentic, backend]
-dates: "May 2025 - Present"
+dates: "June 2025 - June 2026"
 employer: "Deeplens"
 position: "Chief Technical Officer"
 responsibilities: [
-  "Building the company and product from scratch as CTO",
-  "Building media monitoring workflows that turn multiple external sources into a unified analysis pipeline",
-  "Working with text and visual content to improve analysis and detection quality",
-  "Iterating with early access users and incorporating real-user feedback into the product",
-  "Building agentic workflows for research, development, and internal tooling",
+  "Led development of a B2B SaaS product for feedback analysis and review processing, offered to companies on the market",
+  "Owned the full cycle from product ideas and technical discovery to working demo stands with connected client data",
+  "Built workflows that transformed customer feedback data into structured analysis, visible results, and actionable product output",
+  "Introduced AI-native product and engineering practices across discovery, development, testing, review, and delivery",
+  "Used AI both inside the development process and in the end-user product experience",
+  "Developed a client-facing TUI experience that allowed customers to talk to their data and explore analysis results conversationally",
   "Designed development and testing practices built around AI assistance, including prompt regression, output benchmarking, and automated review cycles",
-  "Continuously automating and transforming internal workflows so the team operates beyond what its headcount would normally allow",
-  "Owning engineering decisions across architecture, delivery, and iteration speed"
+  "Owned engineering decisions across architecture, delivery, iteration speed, demos, and client-data integration"
 ]
-activities: "AI product development, engineering leadership, remote"
+activities: "B2B SaaS, AI product development, feedback analytics, engineering leadership, remote"
 ---
