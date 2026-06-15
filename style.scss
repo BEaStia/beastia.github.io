@@ -40,7 +40,7 @@ body::after {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -216,11 +216,11 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $georgia;
-  font-weight: 700;
+  font-family: $helveticaNeue;
+  font-weight: 850;
   font-size: 32px;
   line-height: 1.08;
-  letter-spacing: -0.2px;
+  letter-spacing: 0;
 
   a {
     color: inherit;
@@ -376,7 +376,7 @@ nav {
   margin: 0 0 14px;
   font-size: clamp(2.2rem, 4.8vw, 4rem);
   line-height: 1.05;
-  letter-spacing: -0.045em;
+  letter-spacing: 0;
 }
 
 .hero-lead {
@@ -511,10 +511,10 @@ nav {
   display: block;
   margin-bottom: 10px;
   color: $darkerGray;
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   font-size: clamp(1.8rem, 4vw, 2.35rem);
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
 }
 
 .metric-card span {
@@ -603,7 +603,7 @@ nav {
   border-radius: 18px;
   background: rgba(29, 36, 51, 0.04);
   color: $darkerGray;
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   font-size: 18px;
   line-height: 1.45;
 }
@@ -655,7 +655,7 @@ nav {
 .details-card summary {
   cursor: pointer;
   color: $darkerGray;
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.35;
