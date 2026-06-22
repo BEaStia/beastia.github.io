@@ -1,0 +1,11 @@
+{
+    "schema_version": 1,
+    "commit": "e3dadc5adc850440b87fee53ce472049c7bbc75a",
+    "indexed_at": "2026-06-22T13:58:29Z",
+    "project": "Users-igorpavlov-Projects-beastia.github.io",
+    "nodes": 113,
+    "edges": 110,
+    "original_size": 1769472,
+    "compressed_size": 18030,
+    "compression_level": 3
+}
