@@ -22,16 +22,20 @@ html {
 // Leadership landing page
 //
 
-.leadership-resume-page {
+.leadership-resume-page,
+.compact-resume-page {
   background: #fff;
 }
 
 .leadership-resume-page .wrapper-masthead,
-.leadership-resume-page .wrapper-footer {
+.leadership-resume-page .wrapper-footer,
+.compact-resume-page .wrapper-masthead,
+.compact-resume-page .wrapper-footer {
   display: none;
 }
 
-.leadership-resume-page #main {
+.leadership-resume-page #main,
+.compact-resume-page #main {
   max-width: none;
   padding: 0;
 }
