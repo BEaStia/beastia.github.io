@@ -22,16 +22,16 @@ html {
 // Leadership landing page
 //
 
-body:has(.one-page-resume) {
+.leadership-resume-page {
   background: #fff;
 }
 
-body:has(.one-page-resume) .wrapper-masthead,
-body:has(.one-page-resume) .wrapper-footer {
+.leadership-resume-page .wrapper-masthead,
+.leadership-resume-page .wrapper-footer {
   display: none;
 }
 
-#main:has(> .one-page-resume) {
+.leadership-resume-page #main {
   max-width: none;
   padding: 0;
 }
@@ -670,7 +670,7 @@ body:has(.one-page-resume) .wrapper-footer {
     margin: 12mm;
   }
 
-  body:has(.one-page-resume) {
+  .leadership-resume-page {
     width: auto;
     height: auto;
   }
