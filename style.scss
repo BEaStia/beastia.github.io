@@ -706,7 +706,8 @@ html {
 
   .leadership-nav,
   .leadership-actions,
-  .leadership-contact-band {
+  .leadership-contact-band,
+  .leadership-lang-switcher {
     display: none !important;
   }
 
@@ -1679,6 +1680,74 @@ footer {
   backdrop-filter: blur(14px);
 }
 
+.resume-lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: auto;
+  padding: 2px;
+  border: 1px solid rgba(22, 32, 51, 0.1);
+  border-radius: 6px;
+  background: rgba(22, 32, 51, 0.04);
+}
+
+.resume-lang {
+  padding: 4px 9px;
+  border-radius: 4px;
+  color: #667085;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: color 120ms ease;
+}
+
+a.resume-lang:hover,
+a.resume-lang:focus {
+  color: #2456d6;
+}
+
+.resume-lang-active {
+  background: #fff;
+  color: #101828;
+  box-shadow: 0 1px 3px rgba(18, 25, 39, 0.1);
+  cursor: default;
+}
+
+.leadership-lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--li-line);
+  border-radius: 6px;
+  background: rgba(22, 32, 51, 0.03);
+}
+
+.leadership-lang {
+  padding: 5px 11px;
+  border-radius: 4px;
+  color: var(--li-muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 120ms ease;
+}
+
+a.leadership-lang:hover,
+a.leadership-lang:focus {
+  color: var(--li-blue);
+}
+
+.leadership-lang-active {
+  background: #fff;
+  color: var(--li-ink);
+  box-shadow: 0 1px 3px rgba(18, 25, 39, 0.1);
+  cursor: default;
+}
+
 .resume-actions .button {
   width: auto;
   min-height: 34px;
@@ -1992,6 +2061,11 @@ footer {
     width: 100%;
   }
 
+  .resume-lang-switcher {
+    justify-self: start;
+    margin-right: 0;
+  }
+
   .resume-sheet {
     width: calc(100vw - 90px);
     max-width: calc(100vw - 90px);
@@ -2087,7 +2161,8 @@ footer {
   body::after,
   .wrapper-masthead,
   .wrapper-footer,
-  .resume-actions {
+  .resume-actions,
+  .resume-lang-switcher {
     display: none !important;
   }
 
