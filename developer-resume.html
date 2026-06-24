@@ -39,18 +39,18 @@ permalink: /developer-resume/
 
     <section class="resume-summary-block">
       <p>
-        Строю AI-продукты от архитектуры pipeline до пользовательского опыта.
-        Практический опыт: prompt regression, output benchmarking, RAG, conversational interfaces в production.
-        Backend-основа (13+ лет) означает — думаю про latency, стоимость и надёжность, а не только про prompt.
-        Прошёл путь от инженера до CTO: работаю автономно, понимаю продуктовые trade-offs.
+        Строю AI-продукты: от архитектуры до интерфейса, от идеи до живых данных клиентов.
+        13 лет backend-практики — думаю про стоимость, надёжность и масштаб, а не только про качество ответа модели.
+        Прошёл путь от инженера до CTO и выбираю роль разработчика осознанно:
+        хочу оставаться в коде и строить системы, а не управлять коммуникациями.
       </p>
     </section>
 
     <section class="resume-proof-grid" aria-label="Ключевые доказательства">
-      <div><strong>Hermes TUI</strong><span>MCP-агент: диалог пользователя с данными в реальном времени, A2A + Docker</span></div>
-      <div><strong>LLM QA</strong><span>Бенчмарк моделей, prompt regression, quality scoring в production</span></div>
-      <div><strong>AI KB</strong><span>Статичная документация → живой AI-инструмент (Uzum)</span></div>
-      <div><strong>13+ лет</strong><span>Backend-основа: production, масштаб, надёжность</span></div>
+      <div><strong>AI-агент</strong><span>Пользователи задают вопросы своим данным и получают ответы — запущен в production</span></div>
+      <div><strong>Выбор модели по данным</strong><span>Сравнил 5 LLM-провайдеров, зафиксировал +18.8% к итоговой метрике качества</span></div>
+      <div><strong>AI Knowledge Base</strong><span>Статичная документация → живой AI-инструмент поддержки (Uzum, 2022–2025)</span></div>
+      <div><strong>13+ лет</strong><span>Ruby, Elixir, Python — финтех, распределённые системы, production</span></div>
     </section>
 
     <div class="resume-main-grid">
@@ -62,11 +62,12 @@ permalink: /developer-resume/
               <h3>Deeplens</h3>
               <span>CTO / Lead AI Engineer · 2025–2026</span>
             </div>
+            <p class="resume-role-context">AI-стартап: SaaS-платформа для продуктовых команд — клиентские отзывы и ревью превращаются в структурированные инсайты с рекомендациями.</p>
             <ul>
-              <li>Спроектировал и запустил Hermes — интерактивный TUI-агент на MCP-протоколе: пользователи ведут диалог с данными в реальном времени; изолированный Docker-стек с A2A-коммуникацией с Rails-бэкендом.</li>
-              <li>Разработал multi-provider LLM-стратегию с автоматическими fallback-цепочками; выбор модели основан на бенчмарках — Qwen3-235B показал +18.8% к composite score при 2× ускорении по сравнению с альтернативами.</li>
-              <li>Спроектировал полный pipeline от сырых отзывов до actionable insights: E5-эмбеддинги + pgvector для семантического поиска, RAG-обогащение контекста, двухфазная генерация (draft → hallucination check + quality scoring).</li>
-              <li>Встроил AI и в процесс разработки, и в пользовательский продукт: prompt regression cases, output benchmarks, automated review cycles в production.</li>
+              <li>Построил платформу с нуля до live-данных первых клиентов — архитектура, LLM-пайплайн и интерфейс вёл один.</li>
+              <li>Разработал стратегию с пятью LLM-провайдерами (OpenAI, Yandex GPT, Qwen3, DeepSeek, GigaChat) и автоматическим fallback; основная модель выбрана по бенчмарку: +18.8% к метрике качества.</li>
+              <li>Спроектировал pipeline анализа отзывов: векторные эмбеддинги + pgvector, RAG-контекст, двухфазная генерация с проверкой галлюцинаций и оценкой качества каждого инсайта.</li>
+              <li>Запустил conversational AI-агент на MCP-протоколе: пользователи задают вопросы своим данным в диалоге и получают мгновенные ответы.</li>
             </ul>
           </article>
           <article class="resume-role">
@@ -94,10 +95,10 @@ permalink: /developer-resume/
         <section class="resume-compact-section">
           <h2>AI / LLM стек</h2>
           <div class="resume-chip-list">
-            <span>Python</span><span>LLM APIs</span><span>RAG</span>
-            <span>Prompt Engineering</span><span>Output Evaluation</span>
-            <span>Regression Testing</span><span>MCP Agents</span>
-            <span>pgvector</span><span>E5 Embeddings</span>
+            <span>Python</span><span>OpenAI</span><span>Yandex GPT</span>
+            <span>Qwen3</span><span>RAG</span><span>Prompt Engineering</span>
+            <span>Output Evaluation</span><span>Regression Testing</span>
+            <span>MCP Agents</span><span>pgvector</span>
           </div>
         </section>
 
@@ -127,7 +128,7 @@ permalink: /developer-resume/
             <li>AI Engineer / LLM Engineer</li>
             <li>Senior Backend Engineer (AI-фокус)</li>
             <li>Staff Engineer — AI-инструменты и платформы</li>
-            <li>CTO / Tech Lead в AI-стартапе</li>
+            <li>Tech Lead / Founding Engineer в AI-продукте</li>
           </ul>
         </section>
 

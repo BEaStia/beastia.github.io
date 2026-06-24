@@ -1996,6 +1996,14 @@ a.leadership-lang:focus {
   margin: 0;
 }
 
+.resume-role-context {
+  color: var(--resume-muted);
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 1px !important;
+  margin-bottom: 3px !important;
+}
+
 .resume-tight-list {
   color: var(--resume-ink);
   font-size: 10.2px;
