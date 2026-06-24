@@ -1692,6 +1692,10 @@ footer {
 }
 
 .resume-lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
   padding: 4px 9px;
   border-radius: 4px;
   color: #667085;
@@ -1726,6 +1730,10 @@ a.resume-lang:focus {
 }
 
 .leadership-lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
   padding: 5px 11px;
   border-radius: 4px;
   color: var(--li-muted);
