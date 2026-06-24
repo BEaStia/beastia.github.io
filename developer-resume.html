@@ -47,8 +47,8 @@ permalink: /developer-resume/
     </section>
 
     <section class="resume-proof-grid" aria-label="Ключевые доказательства">
-      <div><strong>TUI</strong><span>Conversational интерфейс — пользователи «разговаривают» со своими данными</span></div>
-      <div><strong>LLM QA</strong><span>Prompt regression + output benchmarks в production</span></div>
+      <div><strong>Hermes TUI</strong><span>MCP-агент: диалог пользователя с данными в реальном времени, A2A + Docker</span></div>
+      <div><strong>LLM QA</strong><span>Бенчмарк моделей, prompt regression, quality scoring в production</span></div>
       <div><strong>AI KB</strong><span>Статичная документация → живой AI-инструмент (Uzum)</span></div>
       <div><strong>13+ лет</strong><span>Backend-основа: production, масштаб, надёжность</span></div>
     </section>
@@ -63,10 +63,10 @@ permalink: /developer-resume/
               <span>CTO / Lead AI Engineer · 2025–2026</span>
             </div>
             <ul>
-              <li>Разработал клиентский TUI: пользователи в диалоге исследуют AI-анализ своих отзывов и ревью — от концепции до рабочего продукта с живыми данными клиентов.</li>
-              <li>Построил LLM quality loop: prompt regression cases, output benchmarks и автоматизированные review-циклы — ускорил и обезопасил итерации AI-фич в production.</li>
-              <li>Спроектировал pipeline трансформации неструктурированных отзывов в структурированный анализ и actionable product insight через LLM-вызовы и RAG.</li>
-              <li>Встроил AI одновременно в процесс разработки и в пользовательский опыт продукта — два разных применения, один инженерный подход.</li>
+              <li>Спроектировал и запустил Hermes — интерактивный TUI-агент на MCP-протоколе: пользователи ведут диалог с данными в реальном времени; изолированный Docker-стек с A2A-коммуникацией с Rails-бэкендом.</li>
+              <li>Разработал multi-provider LLM-стратегию с автоматическими fallback-цепочками; выбор модели основан на бенчмарках — Qwen3-235B показал +18.8% к composite score при 2× ускорении по сравнению с альтернативами.</li>
+              <li>Спроектировал полный pipeline от сырых отзывов до actionable insights: E5-эмбеддинги + pgvector для семантического поиска, RAG-обогащение контекста, двухфазная генерация (draft → hallucination check + quality scoring).</li>
+              <li>Встроил AI и в процесс разработки, и в пользовательский продукт: prompt regression cases, output benchmarks, automated review cycles в production.</li>
             </ul>
           </article>
           <article class="resume-role">
@@ -96,7 +96,8 @@ permalink: /developer-resume/
           <div class="resume-chip-list">
             <span>Python</span><span>LLM APIs</span><span>RAG</span>
             <span>Prompt Engineering</span><span>Output Evaluation</span>
-            <span>Regression Testing</span><span>Conversational UI</span>
+            <span>Regression Testing</span><span>MCP Agents</span>
+            <span>pgvector</span><span>E5 Embeddings</span>
           </div>
         </section>
 

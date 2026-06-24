@@ -47,8 +47,8 @@ permalink: /developer-resume-en/
     </section>
 
     <section class="resume-proof-grid" aria-label="Key proof points">
-      <div><strong>TUI</strong><span>Conversational interface — users "talk to their data" in real time</span></div>
-      <div><strong>LLM QA</strong><span>Prompt regression + output benchmarks in production</span></div>
+      <div><strong>Hermes TUI</strong><span>MCP-based agent: users query data conversationally, A2A + Docker stack</span></div>
+      <div><strong>LLM QA</strong><span>Model benchmarking, prompt regression, quality scoring in production</span></div>
       <div><strong>AI KB</strong><span>Static docs → live AI-assisted knowledge base (Uzum)</span></div>
       <div><strong>13+ years</strong><span>Backend foundation: production scale, reliability, systems</span></div>
     </section>
@@ -63,10 +63,10 @@ permalink: /developer-resume-en/
               <span>CTO / Lead AI Engineer · 2025–2026</span>
             </div>
             <ul>
-              <li>Built a client-facing TUI where users explore AI analysis of their feedback conversationally—from concept to working product with live client data.</li>
-              <li>Designed an LLM quality loop: prompt regression cases, output benchmarks, and automated review cycles that made AI iteration faster and safer in production.</li>
-              <li>Built a pipeline transforming unstructured customer feedback into structured analysis and actionable product insight through LLM calls and RAG.</li>
-              <li>Embedded AI both into the development process and the end-user product experience—two different applications, one engineering approach.</li>
+              <li>Designed and shipped Hermes — an interactive TUI agent built on MCP protocol: users query their data conversationally in real time; isolated Docker stack with A2A communication to the Rails backend.</li>
+              <li>Built a multi-provider LLM strategy with automatic fallback chains; model selection was data-driven — Qwen3-235B benchmarked at +18.8% composite score improvement with 2× faster throughput.</li>
+              <li>Designed the full pipeline from raw feedback to actionable insights: E5 embeddings + pgvector for semantic search, RAG context retrieval, two-phase generation (draft → hallucination check + quality scoring).</li>
+              <li>Embedded AI into both the development process and the product: prompt regression, output benchmarks, and automated review cycles in production.</li>
             </ul>
           </article>
           <article class="resume-role">
@@ -96,7 +96,8 @@ permalink: /developer-resume-en/
           <div class="resume-chip-list">
             <span>Python</span><span>LLM APIs</span><span>RAG</span>
             <span>Prompt Engineering</span><span>Output Evaluation</span>
-            <span>Regression Testing</span><span>Conversational UI</span>
+            <span>Regression Testing</span><span>MCP Agents</span>
+            <span>pgvector</span><span>E5 Embeddings</span>
           </div>
         </section>
 
