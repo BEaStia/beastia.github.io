@@ -1707,6 +1707,12 @@ footer {
   transition: color 120ms ease;
 }
 
+a.resume-lang {
+  margin-left: 0;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
 a.resume-lang:hover,
 a.resume-lang:focus {
   color: #2456d6;
@@ -1742,6 +1748,12 @@ a.resume-lang:focus {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: color 120ms ease;
+}
+
+a.leadership-lang {
+  margin-left: 0;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 a.leadership-lang:hover,
