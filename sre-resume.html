@@ -1,0 +1,164 @@
+---
+layout: default
+body_class: compact-resume-page
+title: "Senior SRE / Platform Engineer"
+full_title: "Игорь Павлов — Senior SRE / Platform Engineer"
+og_title: "Игорь Павлов — Senior SRE / Platform Engineer"
+og_description: "SRE и Platform Engineer с сильным backend-опытом: production ownership, микросервисы, AWS, распределённые системы и incident management."
+hide_description: true
+permalink: /sre-resume/
+---
+
+<div class="one-page-resume">
+  <div class="resume-actions" aria-label="Действия с резюме">
+    <a class="button button-secondary" href="{{ site.baseurl }}/">На главную</a>
+    <button class="button button-primary" type="button" onclick="window.print()">Печать / PDF</button>
+  </div>
+
+  <article class="resume-sheet resume-sheet-employment" aria-label="Резюме Игоря Павлова — Senior SRE / Platform Engineer">
+    <header class="resume-sheet-header">
+      <div class="resume-identity">
+        <img class="resume-photo" src="{{ site.avatar }}" alt="Фото Игоря Павлова" />
+        <div>
+          <p class="resume-kicker">Site Reliability · Platform Engineering · Backend</p>
+          <h1>Игорь Павлов</h1>
+          <p class="resume-title">Senior SRE / Platform Engineer</p>
+        </div>
+      </div>
+      <div class="resume-contact">
+        <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
+        <a href="https://t.me/{{ site.footer-links.telegram }}">t.me/{{ site.footer-links.telegram }}</a>
+        <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}/">linkedin.com/in/{{ site.footer-links.linkedin }}</a>
+        <a href="https://igor-pavlov.ru">igor-pavlov.ru</a>
+      </div>
+    </header>
+
+    <section class="resume-summary-block">
+      <p>
+        Инженер с 13+ годами в backend, инфраструктуре и эксплуатации production-систем.
+        Проектировал распределённые приложения, отвечал за масштабирование и site reliability,
+        автоматизировал deployment и работал с системами, где отказ немедленно влияет на клиентов
+        и бизнес. Сочетаю SRE-подход с глубокой разработческой практикой: могу не только сопровождать
+        платформу, но и менять её код и архитектуру.
+      </p>
+    </section>
+
+    <section class="resume-proof-grid" aria-label="Ключевые факты">
+      <div><strong>Полный ownership</strong><span>Единственный автор и оператор production-системы Deeplens / Denum</span></div>
+      <div><strong>100k+ пользователей</strong><span>Масштабирование и site reliability платформы Worki</span></div>
+      <div><strong>AWS migration</strong><span>Dokku на EC2 → Elastic Beanstalk и собственная автоматизация</span></div>
+      <div><strong>Fintech</strong><span>Incident management и практики надёжности в Uzum</span></div>
+    </section>
+
+    <div class="resume-main-grid">
+      <main class="resume-primary-column">
+        <section class="resume-compact-section">
+          <h2>Опыт, применимый к SRE</h2>
+
+          <article class="resume-role">
+            <div class="resume-role-head">
+              <h3>Deeplens / Denum</h3>
+              <span>CTO / единственный автор проекта · 2025–2026</span>
+            </div>
+            <p class="resume-role-context">Главное актуальное SRE-направление: самостоятельно построил с нуля и эксплуатировал production B2B SaaS, отвечая за весь технический контур.</p>
+            <ul>
+              <li>Единолично спроектировал и реализовал архитектуру, Rails-бэкенд, API, фоновые задачи, интеграции, пользовательский интерфейс и production-окружение.</li>
+              <li>Спроектировал взаимодействие Rails-приложения с набором микросервисов и потоки данных между компонентами системы.</li>
+              <li>Построил асинхронный pipeline на Sidekiq, PostgreSQL, pgvector и Redis: загрузка данных, классификация, embeddings, генерация и проверка инсайтов.</li>
+              <li>Реализовал приоритеты и fallback между несколькими LLM-провайдерами, чтобы внешние ограничения одного поставщика не останавливали обработку.</li>
+              <li>Сам разбирал production-проблемы, устранял причины сбоев и проводил изменения через полный цикл от кода до работающей системы.</li>
+            </ul>
+          </article>
+
+          <article class="resume-role">
+            <div class="resume-role-head">
+              <h3>Silicon Valley Insight</h3>
+              <span>Senior Software Engineer · 2017–2018</span>
+            </div>
+            <p class="resume-role-context">Самый явный инфраструктурный кейс до Worki: перестроил deployment production-приложения и автоматизировал создание окружений в AWS.</p>
+            <ul>
+              <li>Мигрировал deployment-схему merryjane.com с Dokku на EC2 в AWS Elastic Beanstalk.</li>
+              <li>Написал на Python/boto3 собственный инструмент, который автоматически создавал необходимую AWS-инфраструктуру по credentials.</li>
+              <li>Поддерживал production-продукт и одновременно изменял Rails-backend, React/Next.js frontend и схему его развёртывания.</li>
+            </ul>
+          </article>
+
+          <article class="resume-role">
+            <div class="resume-role-head">
+              <h3>Worki / VK Работа · Москва</h3>
+              <span>Backend Engineer → Head of Development · 2018–2022</span>
+            </div>
+            <ul>
+              <li>Отвечал за масштабирование инфраструктуры и site reliability платформы с сотнями тысяч пользователей.</li>
+              <li>Участвовал в миграции и переписывании сервисов на Ruby и Elixir, улучшал инфраструктуру и эксплуатационные характеристики системы.</li>
+              <li>Глубоко исследовал NATS и NATS Streaming; разработал собственные клиенты для Ruby и Elixir.</li>
+              <li>Доработал prerender.io для работы с внешними экземплярами headless Chrome и более эффективного использования ресурсов.</li>
+              <li>Создал лёгкий ClickHouse-пакет для внутренних сервисов.</li>
+            </ul>
+          </article>
+
+          <article class="resume-role">
+            <div class="resume-role-head">
+              <h3>Uzum · Ташкент</h3>
+              <span>Team Leader / Unit Tech Leader · 2022–2025</span>
+            </div>
+            <ul>
+              <li>Работал в финтех-среде с жёсткими требованиями к надёжности и знаком с процессами incident management и лучшими SRE-практиками.</li>
+              <li>Проектировал backend-сервисы под операционную нагрузку, где сбои непосредственно влияли на банковские процессы.</li>
+              <li>Создал внутренние системы для банковских операций и выпуска карт; через них было выпущено более 40 000 карт.</li>
+              <li>Работал совместно с InfoSec над требованиями безопасности и compliance.</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+
+      <aside class="resume-secondary-column">
+        <section class="resume-compact-section">
+          <h2>Reliability / Platform</h2>
+          <div class="resume-chip-list">
+            <span>Production ownership</span><span>Site reliability</span>
+            <span>Incident management</span><span>Distributed systems</span>
+            <span>Microservices</span><span>Deployment automation</span>
+            <span>AWS</span><span>Docker</span><span>NATS</span>
+            <span>Sidekiq</span><span>PostgreSQL</span><span>Redis</span>
+            <span>ClickHouse</span>
+          </div>
+        </section>
+
+        <section class="resume-compact-section">
+          <h2>Разработка</h2>
+          <div class="resume-chip-list">
+            <span>Ruby</span><span>Ruby on Rails</span><span>Elixir</span>
+            <span>Python</span><span>REST API</span><span>GraphQL</span>
+            <span>SQL</span><span>boto3</span><span>JavaScript</span>
+          </div>
+        </section>
+
+        <section class="resume-compact-section">
+          <h2>Что даю SRE-команде</h2>
+          <ul class="resume-tight-list">
+            <li><strong>Разработческий взгляд.</strong> Ищу причину проблемы в коде и архитектуре, а не ограничиваюсь эксплуатационным обходом.</li>
+            <li><strong>Ownership.</strong> Умею отвечать за систему целиком — от решения и deployment до production-поведения.</li>
+            <li><strong>Бизнес-контекст.</strong> Связываю надёжность с влиянием на пользователей, операции и стоимость отказа.</li>
+            <li><strong>Автоматизация.</strong> Убираю повторяемую ручную работу собственными инструментами.</li>
+          </ul>
+        </section>
+
+        <section class="resume-compact-section">
+          <h2>Целевые роли</h2>
+          <ul class="resume-tight-list">
+            <li>Senior Site Reliability Engineer</li>
+            <li>Senior Platform Engineer</li>
+            <li>Infrastructure / Reliability Engineer</li>
+            <li>Backend Engineer с SRE-фокусом</li>
+          </ul>
+        </section>
+
+        <section class="resume-compact-section">
+          <h2>Образование</h2>
+          <p><strong>Ивановский государственный энергетический университет</strong><br />Инженер-программист, 2014</p>
+        </section>
+      </aside>
+    </div>
+  </article>
+</div>
